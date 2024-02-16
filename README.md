@@ -1,18 +1,22 @@
-# ChestSort<br/>
-Sort you chest in a fast way<br/>
+# ChestSort
+Sort you chest in a fast way
 
-**Installation (plug and play):**<br/>
-You will receive a .jar file. You have to put the file into your plugins folder. Run your server -> **done!**<br/>
+**Server requirements:**
+- spigot 1.20.1
+- java 1.17
+
+**Installation (plug and play):**
+1. Put the .jar file into your plugins folder
+2. Run your server -> **done**
 
 **Functions:**
-- You can sort your chest with shift + leftclick on any chest
+- Sort your chest with shift + left click on any chest
 - Sort by alphabetical order
 - Sort by amount of items order
 
 **Permission:**
-- chestsort.use<br/>
-You can edit the permission in the config.yml
+- chestsort.use
 
-**Download:**
-[https://www.spigotmc.org/resources/chestsort-1-8-x-1-18-x-spigot.100400/](https://www.spigotmc.org/resources/chestsort-1-8-x-1-18-x-spigot.100400/)
-[https://chunkfactory.com/product/chestsort-1-8-x-1-18-x-spigot.3103/](https://chunkfactory.com/product/chestsort-1-8-x-1-18-x-spigot.3103/)
+**Download:**<br/>
+[https://www.spigotmc.org/resources/chestsort-1-20-x-spigot.100400/](https://www.spigotmc.org/resources/chestsort-1-20-x-spigot.100400/)<br/>
+[https://chunkfactory.com/product/chestsort-1-20-x-spigot.3103/](https://chunkfactory.com/product/chestsort-1-20-x-spigot.3103/)

@@ -1,0 +1,39 @@
+# Chest sort
+# Plugin by Delta203
+# v1.20.1 Spigot, Java 17
+
+permission: 'chestsort.use'
+disabledWorlds:
+  - 'test'
+
+# Type NONE for no sound
+sounds:
+  openGui: BLOCK_CHEST_OPEN
+  success: BLOCK_NOTE_BLOCK_PLING
+  fail: BLOCK_NOTE_BLOCK_BASS
+
+# GUI configurations
+# Type NONE at glass for no glass
+# Placeholders:
+#   %x%, %y%, %z%: Coordinates
+#   %s%: New line for lore
+gui:
+  size: 9
+  title: '§8Sort chest'
+  glass: BLACK_STAINED_GLASS_PANE
+  items:
+    chest:
+      slot: 9
+      name: '§7Position§8:'
+      material: CHEST
+      lore: '§7X§8: §e%x%%s%§7Y§8: §e%y%%s%§7Z§8: §e%z%'
+    sort_A_Z:
+      slot: 1
+      name: '§aSort§8: §7A->Z'
+      material: NETHER_STAR
+      lore: '§7Click here to%s%§7sort the chest!'
+    sort_amount:
+      slot: 2
+      name: '§aSort§8: §7Amount'
+      material: PRISMARINE_CRYSTALS
+      lore: '§7Click here to%s%§7sort the chest!'
