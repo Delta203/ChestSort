@@ -1,20 +1,20 @@
 # ChestSort
 Sort you chest in a fast way
 
-**Server requirements:**
+## Server requirements:
 - spigot 1.20.1
 - java 1.17
 
-**Installation (plug and play):**
+## Installation (plug and play):
 1. Put the .jar file into your plugins folder
 2. Run your server -> **done**
 
-**Functions:**
+## Functions:
 - Sort your chest with shift + left click on any chest
 - Sort by alphabetical order
 - Sort by amount of items order
 
-**Permission:**
+## Permission:
 - chestsort.use
 
 **Download:**<br/>
